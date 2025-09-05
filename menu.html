@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Brew Haven - Menu</title>
+  <meta name='description' content='Full coffee & food menu with categories and prices.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-white text-gray-900'>
+  <header class='w-full sticky top-0 z-50 bg-white/90 backdrop-filter backdrop-blur-lg border-b border-gray-200'>
+    <nav class='max-w-6xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <a href='index.html' class='text-2xl font-semibold' style='font-family: Playfair Display, serif'>Brew Haven</a>
+      <ul class='hidden md:flex space-x-6 font-medium'>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='menu.html'>Menu</a></li>
+        <li><a href='about.html'>About</a></li>
+        <li><a href='shop.html'>Shop</a></li>
+        <li><a href='blog.html'>Blog</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class='max-w-6xl mx-auto px-4 py-8'>
+    <h1 class='text-3xl font-semibold mb-6' style='font-family: Playfair Display, serif'>Menu</h1>
+    <!-- Hot Coffees -->
+    <section class='mb-8'>
+      <h2 class='text-2xl font-semibold mb-4' style='font-family: Playfair Display, serif'>Hot Coffees</h2>
+      <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://images.unsplash.com/photo-1572081684224-c78a1b4404e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw0fHxjdXAlMjBvZiUyMGhvdCUyMGNvZmZlZXxlbnwwfDB8fHwxNzU3MDcxNjk5fDA&ixlib=rb-4.1.0&q=80&w=1080" alt='Hot Coffee' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Espresso</span><span>₹180</span>
+          </div>
+          <p class='text-sm text-gray-600'>Strong and smooth with a velvety crema.</p>
+        </div>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://pixabay.com/get/g45a40f4523cbf1a3f92ef15062a2d6285f3c9464dcc5080c2dd9d5ee9b38910feb040dbbfff279ede6e1e6a959a55b2686b147cb4a4d6c496bd4007d25e8a101_640.jpg" alt='Latte' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Latte</span><span>₹210</span>
+          </div>
+          <p class='text-sm text-gray-600'>Creamy steamed milk with balanced espresso.</p>
+        </div>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://images.pexels.com/photos/2775827/pexels-photo-2775827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt='Cappuccino' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Cappuccino</span><span>₹200</span>
+          </div>
+          <p class='text-sm text-gray-600'>Espresso, foam, and a dusting of cocoa.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Cold Brews -->
+    <section class='mb-8'>
+      <h2 class='text-2xl font-semibold mb-4' style='font-family: Playfair Display, serif'>Cold Brews</h2>
+      <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://images.pexels.com/photos/33753904/pexels-photo-33753904.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt='Cold Brew' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Cold Brew</span><span>₹230</span>
+          </div>
+          <p class='text-sm text-gray-600'>Smooth and refreshing with chocolatey notes.</p>
+        </div>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://pixabay.com/get/g3f0b2ed738d0d5e33469c00e047c943c2028b4d5e2055e1238f3b8fe0146987bb7e27cd78c1d124f22112a9dfe945208227b507a19f62e31d4d92e1e15c5c0d9_640.jpg" alt='Iced Coffee' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Iced Coffee</span><span>₹210</span>
+          </div>
+          <p class='text-sm text-gray-600'>Bright and vibrant, perfect for warm days.</p>
+        </div>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://images.pexels.com/photos/1552630/pexels-photo-1552630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt='Nitro Cold Brew' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Nitro Cold Brew</span><span>₹260</span>
+          </div>
+          <p class='text-sm text-gray-600'>Silky texture with a creamy head.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Pastries -->
+    <section class='mb-8'>
+      <h2 class='text-2xl font-semibold mb-4' style='font-family: Playfair Display, serif'>Pastries</h2>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://images.pexels.com/photos/4279/coffee-morning-breakfast-croissant.jpg?auto=compress&cs=tinysrgb&h=650&w=940" alt='Croissant' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Croissant</span><span>₹120</span>
+          </div>
+        </div>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://images.pexels.com/photos/763140/pexels-photo-763140.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt='Almond pastry' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Almond Pastry</span><span>₹140</span>
+          </div>
+        </div>
+        <div class='bg-white p-4 rounded-lg shadow'>
+          <img src="https://pixabay.com/get/gb00680d13b99d3c0c84e22f9ecdb9cd91ce599957a5678c2e349b22ebae5d6a52fb6e53a3563c2b089cd94c4e40b17111385230a84db4009875d938e4e757509_640.jpg" alt='Blueberry muffin' class='w-full h-32 object-cover rounded'>
+          <div class='mt-2 flex items-center justify-between'>
+            <span>Blueberry Muffin</span><span>₹90</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class='bg-stone-800 text-gray-100 py-6'>
+    <div class='max-w-6xl mx-auto px-4'>© 2025 Brew Haven</div>
+  </footer>
+</body>
+</html>
